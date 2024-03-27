@@ -1,7 +1,9 @@
 import {test,expect} from 'vitest';
+import {proximo} from "./proximo";
 
 test('o proximo (0) retorna 1', ()=>{
-    expect(proximo(0)).toBe(1);
+    expect(proximo(0)).
+    toBe(1);
 });
 test('o proximo (1) retorna 3', ()=>{
     expect(proximo(1)).toBe(3);
