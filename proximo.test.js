@@ -17,3 +17,4 @@ test('o proximo (3) retorna 4', ()=>{
 test('o proximo (4) retorna 6', ()=>{
     expect(proximo(4)).toBe(6);
 });
+
